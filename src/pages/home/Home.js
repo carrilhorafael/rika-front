@@ -4,7 +4,7 @@ export default function Home () {
     return(
         <>
             <h1>Essa é a home</h1>
-            <a href="/initial"></a>
+            <a href="/initial">ir para a initial</a>
         </>
     )
 }
