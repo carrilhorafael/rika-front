@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Task () {
     return (
-        <div className="">
+        <div className="grid_task_area">
             <p>Tarefa 1 - 20/05</p>
             <p>Tarefa 2 - 21/05</p>
             <p>Tarefa 3 - 22/05</p>

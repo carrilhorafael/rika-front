@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './header/Header'
 
-function Layout (props) {
+export default function Layout (props) {
     return(
         <div className="grid-main-content">
             <Header />

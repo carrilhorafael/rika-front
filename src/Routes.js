@@ -7,6 +7,7 @@ import Home from './pages/home/Home'
 export default function Routes () {
     return(
         <Router>
+            
             <Switch>
                 <Route exact path = "/auth"><Initial/></Route>
                 <Route exact path = "/"><Home/></Route>
