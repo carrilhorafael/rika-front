@@ -5,10 +5,12 @@ function Layout (props) {
     return(
         <div className="grid-main-content">
             <Header />
-            <nav></nav>
-            <main>{props.children}</main>
-            <div></div>
-            <footer></footer>
+            <SideMenu />
+            <main className="item_grid grid_switch_area">
+                {props.children}
+            </main>
+            <ListTasks />
+            <Footer />
         </div>
     )
 }

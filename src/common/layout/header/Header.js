@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Header (props) {
     return(
-        <header>
+        <header className="">
             <div className="header-logo">
                 <h1>理科</h1>
                 <h2>Rika</h2>
