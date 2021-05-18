@@ -1,12 +1,10 @@
 import React from 'react'
+import Header from './header/Header'
 
 function Layout (props) {
     return(
         <div className="grid-main-content">
-            <div>
-                <h1>理科</h1>
-                <h2>Rika</h2>
-            </div>
+            <Header />
             <nav></nav>
             <main>{props.children}</main>
             <div></div>
