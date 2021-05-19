@@ -14,7 +14,7 @@ export default function Layout (props) {
             </div>
             <Header />
             <SideMenu />
-            <main className={style.grid_switch_area}>
+            <main className={style.grid_main_area}>
                 {props.children}
             </main>
             <Tasks />

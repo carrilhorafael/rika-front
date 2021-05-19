@@ -44,6 +44,26 @@
 }
 .grid_task_area{
     grid-area: task;
+
+    background-color: #dfdfdf;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+}
+.grid_task_area > p {
+    padding: 10px 0;
+    font-family: sans-serif;
+}
+.grid_task_area::-webkit-scrollbar{
+    width: 10px;
+}
+.grid_task_area::-webkit-scrollbar-track{
+    background-color: #EAFFFE;
+}
+.grid_task_area::-webkit-scrollbar-thumb{
+    background-color: #A7F0F4;
+    width: 1px;
 }
 .grid_footer_area{
     grid-area: footer;
@@ -53,13 +73,13 @@
     background-color: #EAFFFE;
 }
 .grid_main_container{
-    min-height: 100vh;
+    height: 100vh;
     display: grid;
     grid-template-rows:10% 80% 10%;
     grid-template-columns: 20% 60% 20%;
     grid-template-areas:
 		"logo header header"
-		"nav main tasks"
+		"nav main task"
         "nav footer footer"
 		;
 }
