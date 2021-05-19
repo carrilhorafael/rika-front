@@ -1,7 +1,25 @@
-
-
+.grid_header_area{
+    grid-area: header;
+}
+.grid_nav_area{
+    grid-area: nav;
+}
+.grid_main_area{
+    grid-area: main;
+}
+.grid_task_area{
+    grid-area: task;
+}
+.grid_footer_area{
+    grid-area: footer;
+}
 .grid_main_container{
-    min-height: 100%;
+    min-height: 100vh;
     display: grid;
-    
+    grid-template-columns: 20% 60% 20%;
+    grid-template-areas:
+		"header header header"
+		"nav main tasks"
+        "nav footer footer"
+		;
 }
