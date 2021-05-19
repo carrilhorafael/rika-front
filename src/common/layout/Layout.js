@@ -8,9 +8,13 @@ import style from './layout.module.css'
 export default function Layout (props) {
     return(
         <div className={style.grid_main_container}>
+            <div className={style.grid_logo}>
+                <h1>理科</h1>
+                <h2>Rika</h2>
+            </div>
             <Header />
             <SideMenu />
-            <main className={style.item_grid + style.grid_switch_area}>
+            <main className={style.grid_switch_area}>
                 {props.children}
             </main>
             <Tasks />
