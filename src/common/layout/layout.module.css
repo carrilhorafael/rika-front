@@ -27,15 +27,29 @@
     background-color: #dfdfdf;
     align-items: center;  
 }
-.grid_nav_area > a {
+.grid_nav_area a{
+    width: 100%;
+    
+}
+.button_nav_type{
     text-decoration: none;
+    background: none;
+    border: none;
     width: 100%;
     font-family: "Roboto", sans-serif;
-
     padding: 20px 0;
     text-align: center;
+    font-size: 1rem;
 }
-.grid_nav_area > a:hover{
+.div_buttons_nav_bar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.div_buttons_nav_bar .button_nav_type{
+    font-size: 0.8rem;
+}
+.button_nav_type:hover{
     background-color: #2A0496;
     color: #FAFAFA;
 }
@@ -44,7 +58,6 @@
 }
 .grid_task_area{
     grid-area: task;
-
     background-color: #dfdfdf;
     display: flex;
     flex-direction: column;
