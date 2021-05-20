@@ -15,7 +15,9 @@ export default function Layout (props) {
             <Header />
             <SideMenu />
             <main className={style.grid_main_area}>
-                {props.children}
+                <div className={style.main_container}>
+                    {props.children} 
+                </div>
             </main>
             <Tasks />
             <Footer />

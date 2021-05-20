@@ -19,6 +19,7 @@ export default function Home () {
     return(
         <>
             <h1 className={style.title_news}>Noticias</h1>
+            <p>Fique por dentro das novidades do Rika</p>
             {news.map(single_new => (
                 <CardNews news = {single_new} />
             ))}
