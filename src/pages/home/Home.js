@@ -18,12 +18,11 @@ let news = [
 export default function Home () {
     return(
         <>
-            <h1 className={style.title_news}>Noticias</h1>
+            <h2>Noticias</h2>
             <p>Fique por dentro das novidades do Rika</p>
             {news.map(single_new => (
                 <CardNews news = {single_new} />
             ))}
-            <Link to="/auth">ir para a initial</Link>
         </>
     )
 }

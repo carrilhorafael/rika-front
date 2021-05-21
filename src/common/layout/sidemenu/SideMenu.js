@@ -8,7 +8,7 @@ export default function SideMenu () {
     }
     return (<nav className={style.grid_nav_area}>
         <Link to="/"><button className={style.button_nav_type}>Principal</button></Link>
-        <Link to="/"><button className ={style.button_nav_type}>Aulas</button></Link>
+        <Link to="/class"><button className ={style.button_nav_type}>Aulas</button></Link>
         <button onClick={handlerToggleShow} className = {style.button_nav_type}>Entregas</button>
         <div style={{display:"none"}} className={style.div_buttons_nav_bar}>
             <Link><button className={style.button_nav_type}>Tarefas</button></Link>

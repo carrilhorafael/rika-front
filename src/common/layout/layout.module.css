@@ -60,9 +60,9 @@
 .grid_main_area::-webkit-scrollbar{
     width: 10px;
 }
-.grid_main_area::-webkit-scrollbar-track{
+/* .grid_main_area::-webkit-scrollbar-track{
     background-color: #EAFFFE;
-}
+} */
 .grid_main_area::-webkit-scrollbar-thumb{
     background-color: #A7F0F4;
     width: 1px;
@@ -86,9 +86,9 @@
 .grid_task_area::-webkit-scrollbar{
     width: 10px;
 }
-.grid_task_area::-webkit-scrollbar-track{
+/* .grid_task_area::-webkit-scrollbar-track{
     background-color: #EAFFFE;
-}
+} */
 .grid_task_area::-webkit-scrollbar-thumb{
     background-color: #A7F0F4;
     width: 1px;

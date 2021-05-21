@@ -10,7 +10,7 @@ export default function Layout (props) {
         <div className={style.grid_main_container}>
             <div className={style.grid_logo}>
                 <h1>理科</h1>
-                <h2>Rika</h2>
+                <h1>Rika</h1>
             </div>
             <Header />
             <SideMenu />

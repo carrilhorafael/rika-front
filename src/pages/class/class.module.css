@@ -1,0 +1,31 @@
+.iframe_youtube{
+    width: 250px;
+    height: 200px;
+    border-radius: .8rem;
+    margin-right: .3rem;
+}
+
+.class_name{
+    margin: 15px 0;
+}
+.container_classes{
+    display: flex;
+    overflow-x: scroll;
+    padding-bottom: 10px;
+}
+.container_classes::-webkit-scrollbar{
+    width: 10px;
+}
+/* .container_classes::-webkit-scrollbar-track{
+    background-color: #EAFFFE;
+} */
+.container_classes::-webkit-scrollbar-thumb{
+    background-color: #A7F0F4;
+    height: 10px;
+    margin: 20px 0;
+}
+.div_title_button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
