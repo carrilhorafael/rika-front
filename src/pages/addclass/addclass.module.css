@@ -1,0 +1,17 @@
+.form_classname fieldset{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+.form_classname label{
+    margin: 5px 0;
+}
+.form_classname input{
+    min-height: 30px;
+}
+.form_classname select{
+    min-height: 30px;
+}
+.form_classname textarea{
+    min-height: 200px;
+}
