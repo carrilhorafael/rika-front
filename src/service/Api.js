@@ -9,7 +9,7 @@ export function getNews () {
 }
 
 export function postLesson (fetchBody) {
-
+    return api.post("/lessons", fetchBody)
 }
 export function getSubjectsPreview () {
     return api.get("/subjects/preview")

@@ -1,17 +1,26 @@
-.form_classname fieldset{
+.form_addlesson fieldset{
     display: flex;
     flex-direction: column;
     margin: 10px 0;
 }
-.form_classname label{
+.form_addlesson label{
     margin: 5px 0;
 }
-.form_classname input{
+.form_addlesson input{
     min-height: 30px;
 }
-.form_classname select{
+.form_addlesson select{
     min-height: 30px;
 }
-.form_classname textarea{
+.form_addlesson textarea{
     min-height: 200px;
+}
+.form_addlesson {
+    display: flex;
+    flex-direction: column;
+}
+.form_addlesson .button_main{
+    max-width: 50%;
+    justify-self: center;
+    align-self: center;
 }
