@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import style from './class.module.css'
+import style from './subjects.module.css'
 
 const subjects = [
     {id: 0, name: "HTML", lessons:[
@@ -36,7 +36,7 @@ const subjects = [
 
 ]
 
-export default function Class () {
+export default function ListSubjects () {
     
     return (
         <>

@@ -1,37 +1,14 @@
 import React, { useState } from 'react';
-import style from './addclass.module.css'
+import style from './addlesson.module.css'
 
 const subjects = [
-    {id: 0, name: "HTML", links:[
-        "https://www.youtube.com/embed/GHYK0Er6Lk0",
-        "https://www.youtube.com/embed/sdy4MaxAxTE",
-        "https://www.youtube.com/embed/cdtULRcYVvE",
-    ] 
-    },
-    {id: 1, name: "CSS", links:[
-        "https://www.youtube.com/embed/RLFpnIO5hB8",
-        "https://www.youtube.com/embed/aTI3RoaoOFA",
-        "https://www.youtube.com/embed/sdy4MaxAxTE",
-    ] 
-    },
-    {id: 2, name: "React", links:[
-        "https://www.youtube.com/embed/aTI3RoaoOFA",
-        "https://www.youtube.com/embed/NJBKdNAPGbk",
-        "https://www.youtube.com/embed/cdtULRcYVvE",
-        "https://www.youtube.com/embed/cdtULRcYVvE",
-    ] 
-    },
-    {id: 3, name: "Rails", links:[
-        "https://www.youtube.com/embed/sdy4MaxAxTE",
-        "https://www.youtube.com/embed/NJBKdNAPGbk",
-        "https://www.youtube.com/embed/cdtULRcYVvE",
-        "https://www.youtube.com/embed/NJBKdNAPGbk",
-        "https://www.youtube.com/embed/cdtULRcYVvE",
-    ] 
-    },
+    {id: 0, name: "HTML"},
+    {id: 1, name: "CSS" },
+    {id: 2, name: "React"},
+    {id: 3, name: "Rails"},
 ]
 
-export default function AddClass () {
+export default function AddLesson () {
     const [name, setName] = useState("")
     const [description, setDescription] = useState("")
     const [youtube, setYoutube] = useState("")
