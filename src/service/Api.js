@@ -7,3 +7,15 @@ const api = axios.create({
 export function getNews () {
     return api.get("/news")
 }
+
+export function postLesson (fetchBody) {
+
+}
+export function getSubjectsPreview () {
+    return api.get("/subjects/preview")
+}
+export function getFilteredUsers(filter){
+    return api.get("/users/filter", {
+        params:{"filter": filter}
+    })
+}

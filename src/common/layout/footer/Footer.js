@@ -1,7 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import style from '../layout.module.css'
-import lobo_facebook from '../../../assets/facebook.png'
 
 export default function(){
 
