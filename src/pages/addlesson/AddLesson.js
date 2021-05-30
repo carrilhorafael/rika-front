@@ -32,7 +32,6 @@ export default function AddLesson () {
         })
         getFilteredUsers("instrutor").then(({data})=>{
             setInstructors(data)
-            console.log(data)
         })
     }, [])
 
